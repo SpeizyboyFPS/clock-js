@@ -1,0 +1,26 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+    background: #f8b63b;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    padding-top: 18%;
+}
+
+.reloj {
+    background: linear-gradient(#666, #999);
+    border: 2px solid #000;
+    display: inline-flex;
+    border-radius: 5px;
+}
+
+.reloj div {
+    color: #fff;
+    padding: 5px 9px;
+    font-size: 50px;
+    font-family: monospace;
+    border: 1px solid #000;
+}
